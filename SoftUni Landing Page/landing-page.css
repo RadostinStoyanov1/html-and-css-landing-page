@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+.logo-container img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 7px;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header {
+    box-shadow: 0px 3px 8px -4px #ccc;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #565656;
+}
+
+.nav-link:hover {
+    color: #FF9100;
+    cursor: pointer;
+}
+
+.btn {
+    background: #FF9100;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 25px;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 8px -4px #ccc;
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+}
+
+.login-nav-item * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login-btn {
+    margin-left: 15px;
+}
+
+.intro {
+    background: #FF9100;
+    color: white;
+    text-align: center;
+    padding: 60px 350px 90px 350px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.intro p {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+.filters {
+    background: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.filters-title {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.filters label * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filters label input {
+    border: 1px solid #FF9100;
+    border-radius: 3px;
+    padding: 8px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.filters label {
+    position: relative;
+}
+
+.question-mark-icon {
+    position: absolute;
+    top: 5px;
+    right: -30px;
+}
+
+.filters label::after {
+    content: "";
+    display: block;
+    background: url(./Images/input-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+
+.trainings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.training {
+    margin: 13px;
+    box-shadow: 0px 2px 4px 0px #009CFF;
+    border-radius: 12px;
+    flex-basis: 100%;
+}
+
+.training:nth-child(1) header, .training:nth-child(3) header {
+    background: #44A9F8;
+    color: white;
+}
+
+.training:nth-child(2) header {
+    background: #FF9100;
+    color: white;
+}
+
+.training header {
+    position: relative;
+    text-align: center;
+    padding: 80xp 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.training header span {
+    background: #666781;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: white;
+    padding: 8px 12px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+}
+
+#first {
+    margin-right: 40px;
+}
+
+.training:nth-child(3) header span {
+    background: #a45ac4;
+}
+
+.training header h3 {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    padding: 40px 30px 10px 30px;
+}
+
+.training-content {
+    padding: 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.training-content-info {
+    display: flex;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    margin: 0px 14px;
+    color: #565656;
+}
+
+.training-content-info img {
+    margin-right: 10px;
+}
+
+.training-content::after {
+    content: "";
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    height: 1px;
+    background: rgb(219, 214, 214);
+}
+
+.training footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.training-price p {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: #FC4C50;
+    font-weight: bold;
+}
+
+.training-cta button {
+    font-weight: bold;
+}
+
+.dots-line-container {
+    padding: 0 40px;
+}
+
+.programs-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.program-software {
+    border: 4px solid #44A9F8;
+    border-radius: 12px;
+    background: #E3F3FD;
+    margin-right: 25px;
+}
+
+.program-hardware {
+    border: 4px solid #00AF9B;
+    border-radius: 12px;
+    background: #DFF4F1;
+    margin-left: 25px;
+}
+
+.program-header {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px !important;
+}
+
+.program-software header h4 {
+    color: #44A9F8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.program-hardware header h4 {
+    color: #00AF9B;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.program-content p {
+    color: #565656;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    padding: 10px 50px;
+}
+
+.programs > header {
+    display: block;
+    text-align: center;
+    padding: 20px 300px;
+}
+
+.programs header h2 {
+    color: #41BEAD;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    padding: 0px 10px;
+}
+
+.programs header p {
+    color: #565656;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+.program-content button {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.page-footer {
+    background: #565656;
+    color: white;
+    position: relative;
+    padding-left: 27%;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    margin-top: 250px;
+    border-top: 12px solid #919191;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.page-footer ul {
+    list-style-type: none;
+}
+
+.page-footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.footer-person-container {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+
+.page-footer h5 {
+    font-size: 18px;
+}
+
+.footer-menu li {
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.footer-menu nav {
+    align-items: baseline;
+}
+
+.social-media ul {
+    display: flex;
+}
+
+.social-media {
+    max-width: 177px;
+}
+
+.social-media li {
+    margin: 0px 40px 0px 0px;
+}
+
